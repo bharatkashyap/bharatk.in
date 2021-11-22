@@ -170,7 +170,7 @@ export default {
               label: 'ispirt.in',
             },
             logo: {
-              src: 'iSPIRT-logo.svg',
+              src: 'ispirt-logo.svg',
             },
             seeMore: {
               src: 'https://pn.ispirt.in/data-empowerment-and-protection-architecture-explained-video/',
