@@ -153,11 +153,11 @@ export default {
             },
             description: {
               'en-IN':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with multiple product partners, government agencies and technology, policy experts',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
               'en-GB':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with multiple product partners, government agencies and technology, policy experts',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
               'en-US':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with multiple product partners, government agencies and technology, policy experts',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
               hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार, बाज़ार और विशेषज्ञों के साथ कार्यरत हूँ ',
             },
             repository: {
@@ -230,12 +230,12 @@ export default {
             },
             description: {
               'en-IN':
-                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the donation, tracking, verification and certification of smartphones to children in need',
+                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the tracking, verification and certification of smartphone donation to children in need',
               'en-GB':
-                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the donation, tracking, verification and certification of smartphones to children in need',
+                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the tracking, verification and certification of smartphone donation to children in need',
               'en-US':
-                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the donation, tracking, verification and certification of smartphones to children in need',
-              hi: 'एक लो - कोड़े सॉफ्टवेयर जो बनाया गया ताकि हिमाचल प्रदेश राज्य सरकार अपने प्रांत में एक स्मार्टफ़ोन दान करने की मुहीम चला सके | इसके ज़रिये फ़ोन को दान, ट्रैक , दान को सत्यापित तथा दाता को प्रमाणित भी किया जा सकता है',
+                'A low-code software platform built to power a state-wide device donation campaign in Himachal Pradesh, India - allowing the tracking, verification and certification of smartphone donation to children in need',
+              hi: 'एक लो - कोड़े सॉफ्टवेयर जो बनाया गया ताकि हिमाचल प्रदेश राज्य सरकार अपने प्रांत में एक स्मार्टफ़ोन दान करने की मुहीम चला सके | इसके ज़रिये फ़ोन को दान, ट्रैक, दान को सत्यापित तथा दाता को प्रमाणित भी किया जा सकता है',
             },
             repository: {},
             host: {
@@ -305,11 +305,11 @@ export default {
             },
             description: {
               'en-IN':
-                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge, open-source GraphQL libraries to drive open-source transformation in Indian state governments',
+                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge GraphQL libraries to drive open-source transformation in Indian state governments',
               'en-GB':
-                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge, open-source GraphQL libraries to drive open-source transformation in Indian state governments',
+                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge GraphQL libraries to drive open-source transformation in Indian state governments',
               'en-US':
-                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge, open-source GraphQL libraries to drive open-source transformation in Indian state governments',
+                'Speaker at "GraphQL Asia 2021", an international GraphQL conference, talking about using cutting-edge GraphQL libraries to drive open-source transformation in Indian state governments',
               hi: '"GraphQL Asia" नामक अंतर्राष्ट्रीय सम्मलेन में बोलने का अवसर मिला, जहाँ राज्यों में GraphQL की सहायता से लो-कोड सॉफ्टवेयर बना कर तकनीकी बदलाव लाने के लाभों की चर्चा की',
             },
             host: {
