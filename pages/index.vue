@@ -54,6 +54,13 @@ export default {
               id: 'linkedin',
             },
           },
+          {
+            src: 'https://bharatkashyap.wordpress.com',
+            icon: {
+              solid: false,
+              id: 'wordpress',
+            },
+          },
         ],
         title: {
           'en-IN': "I'm Bharat, from 🇮🇳",
