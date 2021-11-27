@@ -5,7 +5,7 @@
       grid grid-cols-1
       auto-rows-max
       w-full
-      dark:bg-black
+      dark:bg-gray-900
     "
   >
     <div class="md:m-auto w-full md:w-2/3 lg:w-1/2">
