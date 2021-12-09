@@ -120,11 +120,11 @@ export default {
             },
             description: {
               'en-IN':
-                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
               'en-GB':
-                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
               'en-US':
-                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
               hi: 'मैं MUI (पहले Material-UI) के साथ कार्यरत हूँ, जो की विश्व की सबसे विख्यात सॉफ्टवेयर निर्माताओं में से एक है, और मेरा उद्देश्य है लोगों के लिए सॉफ्टवेयर बनाने की प्रक्रिया को तेज़ और आसान बनाना',
             },
             repository: {
@@ -134,13 +134,13 @@ export default {
             host: {
               title: 'MUI',
               src: 'https://mui.com',
-              label: 'https://mui.com',
+              label: 'mui.com',
             },
             logo: {
               src: 'mui.png',
             },
             seeMore: {
-              src: 'https://github.com/mui/material-ui/pulls?page=1&q=is%3Apr+is%3Aclosed+author%3Abharatkashyap',
+              src: 'https://github.com/mui-org/material-ui/pull/29714',
               label: {
                 'en-IN': 'See More',
                 'en-GB': 'See More',
@@ -313,11 +313,11 @@ export default {
             },
             description: {
               'en-IN':
-                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+                "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
               'en-GB':
-                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+                "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
               'en-US':
-                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+                "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
               hi: 'Hasura - एक प्रचलित सॉफ्टवेयर – के एक अंश में नया फीचर जोड़ा जिससे सिर्फ ऐसे फ़ील्ड्स अपडेट किये जा सकें जिनके लिए आज्ञा हो',
             },
             repository: {},
