@@ -112,6 +112,86 @@ export default {
         reel: [
           {
             category: 'Work',
+            title: 'MUI',
+            id: 'mui',
+            date: 'November 2021 - present',
+            engagement: {
+              title: 'MUI',
+            },
+            description: {
+              'en-IN':
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+              'en-GB':
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+              'en-US':
+                "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries to help make it easier and faster for developers to build modern, performant and accessible websites.",
+              hi: 'मैं MUI (पहले Material-UI) के साथ कार्यरत हूँ, जो की विश्व की सबसे विख्यात सॉफ्टवेयर निर्माताओं में से एक है, और मेरा उद्देश्य है लोगों के लिए सॉफ्टवेयर बनाने की प्रक्रिया को तेज़ और आसान बनाना',
+            },
+            repository: {
+              src: 'https://github.com/mui/material-ui',
+              title: 'material-ui',
+            },
+            host: {
+              title: 'MUI',
+              src: 'https://mui.com',
+              label: 'https://mui.com',
+            },
+            logo: {
+              src: 'mui.png',
+            },
+            seeMore: {
+              src: 'https://github.com/mui/material-ui/pulls?page=1&q=is%3Apr+is%3Aclosed+author%3Abharatkashyap',
+              label: {
+                'en-IN': 'See More',
+                'en-GB': 'See More',
+                'en-US': 'See More',
+                hi: 'और देखें',
+              },
+              code: true,
+            },
+          },
+          {
+            category: 'Contribution',
+            title: 'iSPIRT',
+            id: 'iSPIRT',
+            date: 'September 2021 - present',
+            engagement: {
+              title: 'Personal',
+            },
+            description: {
+              'en-IN':
+                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+              'en-GB':
+                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+              'en-US':
+                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+              hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार, बाज़ार और विशेषज्ञों के साथ कार्यरत हूँ | इस समय डिजिटल स्वास्थय के लिए देश में जारी अभियान के एक अंग से जुड़ा हुआ हूँ जिसका उद्देश्य tele-मेडिसिन को घर-घर तक पहुंचाना है',
+            },
+            repository: {
+              src: 'https://github.com/iSPIRT',
+              title: 'iSPIRT',
+            },
+            host: {
+              title: 'iSPIRT',
+              src: 'https://ispirt.in',
+              label: 'ispirt.in',
+            },
+            logo: {
+              src: 'ispirt-logo.svg',
+            },
+            seeMore: {
+              src: 'https://github.com/bharatkashyap/healthstack/',
+              label: {
+                'en-IN': 'See More',
+                'en-GB': 'See More',
+                'en-US': 'See More',
+                hi: 'और देखें',
+              },
+              code: true,
+            },
+          },
+          {
+            category: 'Work',
             title: 'DIKSHA',
             id: 'diksha',
             date: 'December 2020 - October 2021',
@@ -148,46 +228,6 @@ export default {
                 hi: 'और देखें',
               },
               code: true,
-            },
-          },
-          {
-            category: 'Contribution',
-            title: 'iSPIRT',
-            id: 'iSPIRT',
-            date: 'September 2021 - present',
-            engagement: {
-              title: 'Personal',
-            },
-            description: {
-              'en-IN':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
-              'en-GB':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
-              'en-US':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts',
-              hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार, बाज़ार और विशेषज्ञों के साथ कार्यरत हूँ ',
-            },
-            repository: {
-              src: 'https://github.com/iSPIRT',
-              title: 'iSPIRT',
-            },
-            host: {
-              title: 'iSPIRT',
-              src: 'https://ispirt.in',
-              label: 'ispirt.in',
-            },
-            logo: {
-              src: 'ispirt-logo.svg',
-            },
-            seeMore: {
-              src: 'https://pn.ispirt.in/data-empowerment-and-protection-architecture-explained-video/',
-              label: {
-                'en-IN': 'See More',
-                'en-GB': 'See More',
-                'en-US': 'See More',
-                hi: 'और देखें',
-              },
-              code: false,
             },
           },
           {
@@ -255,6 +295,42 @@ export default {
             },
             seeMore: {
               src: 'https://github.com/samagra-x/device-donation',
+              code: true,
+              label: {
+                'en-IN': 'See More',
+                'en-GB': 'See More',
+                'en-US': 'See More',
+                hi: 'और देखें',
+              },
+            },
+          },
+          {
+            category: 'Work',
+            title: 'Hasura',
+            date: 'June 2021',
+            engagement: {
+              title: 'Personal',
+            },
+            description: {
+              'en-IN':
+                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+              'en-GB':
+                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+              'en-US':
+                'Added a feature to Hasura\s React connector to limit GraphQL update queries on fields present in the authenticated user\s authorization scope',
+              hi: 'Hasura - एक प्रचलित सॉफ्टवेयर – के एक अंश में नया फीचर जोड़ा जिससे सिर्फ ऐसे फ़ील्ड्स अपडेट किये जा सकें जिनके लिए आज्ञा हो',
+            },
+            repository: {},
+            host: {
+              title: 'Hasura',
+              src: 'https://hasura.io',
+              label: 'hasura.io',
+            },
+            logo: {
+              src: 'hasura.png',
+            },
+            seeMore: {
+              src: 'https://github.com/hasura/ra-data-hasura/pull/65',
               code: true,
               label: {
                 'en-IN': 'See More',
