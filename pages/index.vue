@@ -160,16 +160,16 @@ export default {
             },
             description: {
               'en-IN':
-                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
               'en-GB':
-                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
               'en-US':
-                "Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: the design and implementation of the Tele-Medicine layer of India's Unified Health Interface",
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
               hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार, बाज़ार और विशेषज्ञों के साथ कार्यरत हूँ | इस समय डिजिटल स्वास्थय के लिए देश में जारी अभियान के एक अंग से जुड़ा हुआ हूँ जिसका उद्देश्य tele-मेडिसिन को घर-घर तक पहुंचाना है',
             },
             repository: {
-              src: 'https://github.com/iSPIRT',
-              title: 'iSPIRT',
+              src: 'https://github.com/bharatkashyap/healthstack',
+              title: 'Health',
             },
             host: {
               title: 'iSPIRT',
@@ -180,7 +180,7 @@ export default {
               src: 'ispirt-logo.svg',
             },
             seeMore: {
-              src: 'https://github.com/bharatkashyap/healthstack/',
+              src: 'https://bharatkashyap.github.io/healthstack',
               label: {
                 'en-IN': 'See More',
                 'en-GB': 'See More',
