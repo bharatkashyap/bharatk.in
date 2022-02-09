@@ -160,12 +160,12 @@ export default {
             },
             description: {
               'en-IN':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners and government agencies. Current focus: cryptographic, consented data sharing.',
               'en-GB':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners and government agencies. Current focus: cryptographic, consented data sharing.',
               'en-US':
-                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners, government agencies and technology policy experts. Current focus: Healthstack, DEPA Global',
-              hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार, बाज़ार और विशेषज्ञों के साथ कार्यरत हूँ | इस समय डिजिटल स्वास्थय के लिए देश में जारी अभियान के एक अंग से जुड़ा हुआ हूँ जिसका उद्देश्य tele-मेडिसिन को घर-घर तक पहुंचाना है',
+                'Working as a volunteer with iSPIRT on multiple projects in collaboration with product partners and government agencies. Current focus: cryptographic, consented data sharing.',
+              hi: 'iSPIRT में स्वयंसेवक की भूमिका में काम करते हुए विभिन्न योजनाओं में सम्मिलित होकर सरकार और बाज़ार के साथ कार्यरत हूँ | इस समय मेरा कार्य data के सहमत और गुप्त संचार पर केंद्रित है | ',
             },
             repository: {
               src: 'https://github.com/bharatkashyap/healthstack',
