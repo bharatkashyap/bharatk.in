@@ -180,7 +180,7 @@ export default {
               src: 'ispirt-logo.svg',
             },
             seeMore: {
-              src: 'https://github.com/bharatkashyap/healthstack/',
+              src: 'https://github.com/iSPIRT/DEPA',
               label: {
                 'en-IN': 'See More',
                 'en-GB': 'See More',
@@ -294,7 +294,7 @@ export default {
               src: 'digital_saathi.png',
             },
             seeMore: {
-              src: 'https://github.com/samagra-x/device-donation',
+              src: 'https://github.com/samagra-development/x-admin',
               code: true,
               label: {
                 'en-IN': 'See More',
