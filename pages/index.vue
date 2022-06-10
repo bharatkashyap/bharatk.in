@@ -511,8 +511,8 @@ export default {
                 hi: '"GraphQL Asia" नामक अंतर्राष्ट्रीय सम्मलेन में बोलने का अवसर मिला, जहाँ राज्यों में GraphQL की सहायता से लो-कोड सॉफ्टवेयर बना कर तकनीकी बदलाव लाने के लाभों की चर्चा की',
               },
               host: {
-                src: 'https://graphql.asia/talks/adding-bleeding-edge-tech-to-archaic-government-graphql-for-govtech/',
-                label: 'graphql.asia/talks',
+                src: 'https://www.youtube.com/watch?v=G3HIKcLy8uw',
+                label: 'youtube.com',
               },
               seeMore: {
                 src: 'https://bharatkashyap.github.io/gql-asia-21/',
