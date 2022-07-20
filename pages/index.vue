@@ -159,6 +159,43 @@ export default {
             },
             {
               category: 'Contribution',
+              title: 'Civic Tech Field Guide',
+              id: 'CTFG',
+              date: 'January 2022 - present',
+              engagement: {
+                title: 'Personal',
+              },
+              description: {
+                'en-IN':
+                  'Volunteer for the Civic Tech Field Guide project which aims to build a directory of all civic tech projects in the world to help both those looking for solutions, and those looking to solve problems.',
+                'en-GB':
+                  'Volunteer for the Civic Tech Field Guide project which aims to build a directory of all civic tech projects in the world to help both those looking for solutions, and those looking to solve problems.',
+                'en-US':
+                  'Volunteer for the Civic Tech Field Guide project which aims to build a directory of all civic tech projects in the world to help both those looking for solutions, and those looking to solve problems.',
+                hi: 'Civic Tech Field Guide में निर्देशिका बनाने में मदद करने के लिए एक स्वयंसेवक की तरह जुड़ा हुआ हूँ|',
+              },
+              repository: {
+                src: 'https://github.com/bharatkashyap/ctfg-media-go',
+                title: 'Civic Tech Field Guide',
+              },
+              host: {
+                title: 'CTFG',
+                src: 'https://civictech.guide/about',
+                label: 'civictech.guide',
+              },
+              seeMore: {
+                src: 'https://github.com/bharatkashyap/ctfg-media-go',
+                label: {
+                  'en-IN': 'See More',
+                  'en-GB': 'See More',
+                  'en-US': 'See More',
+                  hi: 'और देखें',
+                },
+                code: true,
+              },
+            },
+            {
+              category: 'Contribution',
               title: 'iSPIRT',
               id: 'iSPIRT',
               date: 'September 2021 - present',
