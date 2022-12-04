@@ -27,6 +27,7 @@
         :heading="content.talks.text[locale]"
         :locale="locale"
       />
+      <Tagline :content="content.footnote" :locale="locale" />
       <Socials :links="content.links" />
     </div>
   </div>
@@ -121,7 +122,7 @@ export default {
               category: 'Work',
               title: 'MUI',
               id: 'mui',
-              date: 'November 2021 - present',
+              date: 'Nov 2021 - present',
               engagement: {
                 title: 'MUI',
               },
@@ -161,7 +162,7 @@ export default {
               category: 'Contribution',
               title: 'Civic Tech Field Guide',
               id: 'CTFG',
-              date: 'January 2022 - present',
+              date: 'Jan 2022 - present',
               engagement: {
                 title: 'Personal',
               },
@@ -198,7 +199,7 @@ export default {
               category: 'Contribution',
               title: 'iSPIRT',
               id: 'iSPIRT',
-              date: 'September 2021 - present',
+              date: 'Sep 2021 - present',
               engagement: {
                 title: 'Personal',
               },
@@ -236,9 +237,45 @@ export default {
             },
             {
               category: 'Work',
+              title: 'Hasura',
+              date: 'June 2021 - present',
+              engagement: {
+                title: 'Personal',
+              },
+              description: {
+                'en-IN':
+                  "Contributor to Hasura's React connector: added features to add only permitted fields, and being able to make 'distinct_on' queries. Selected as a Hasura 'Community Champion' in the process",
+                'en-GB':
+                  "Contributor to Hasura's React connector: added features to add only permitted fields, and being able to make 'distinct_on' queries. Selected as a Hasura 'Community Champion' in the process",
+                'en-US':
+                  "Contributor to Hasura's React connector: added features to add only permitted fields, and being able to make 'distinct_on' queries. Selected as a Hasura 'Community Champion' in the process",
+                hi: 'Hasura - एक प्रचलित सॉफ्टवेयर – के एक अंश में नये फीचर जोडे और इस संदर्भ में एक "कम्युनिटी चैंपियन" चयनित हुआ',
+              },
+              repository: {},
+              host: {
+                title: 'Hasura',
+                src: 'https://twitter.com/HasuraHQ/status/1559870630807445508',
+                label: 'twitter.com/HasuraHQ',
+              },
+              logo: {
+                src: 'hasura.png',
+              },
+              seeMore: {
+                src: 'https://github.com/hasura/ra-data-hasura/pulls?q=is%3Apr+author%3Abharatkashyap+is%3Aclosed',
+                code: true,
+                label: {
+                  'en-IN': 'See More',
+                  'en-GB': 'See More',
+                  'en-US': 'See More',
+                  hi: 'और देखें',
+                },
+              },
+            },
+            {
+              category: 'Work',
               title: 'DIKSHA',
               id: 'diksha',
-              date: 'December 2020 - October 2021',
+              date: 'Dec 2020 - Oct 2021',
               engagement: {
                 title: 'Samagra',
               },
@@ -277,7 +314,7 @@ export default {
             {
               category: 'Learning',
               title: 'Turkbox',
-              date: 'August 2019 - September 2021',
+              date: 'Aug 2019 - Sep 2021',
               engagement: {
                 title: 'Personal',
               },
@@ -348,42 +385,7 @@ export default {
                 },
               },
             },
-            {
-              category: 'Work',
-              title: 'Hasura',
-              date: 'June 2021',
-              engagement: {
-                title: 'Personal',
-              },
-              description: {
-                'en-IN':
-                  "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
-                'en-GB':
-                  "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
-                'en-US':
-                  "Added a feature to Hasura's React connector to limit GraphQL update queries on fields present in the authenticated user's authorization scope",
-                hi: 'Hasura - एक प्रचलित सॉफ्टवेयर – के एक अंश में नया फीचर जोड़ा जिससे सिर्फ ऐसे फ़ील्ड्स अपडेट किये जा सकें जिनके लिए आज्ञा हो',
-              },
-              repository: {},
-              host: {
-                title: 'Hasura',
-                src: 'https://hasura.io',
-                label: 'hasura.io',
-              },
-              logo: {
-                src: 'hasura.png',
-              },
-              seeMore: {
-                src: 'https://github.com/hasura/ra-data-hasura/pull/65',
-                code: true,
-                label: {
-                  'en-IN': 'See More',
-                  'en-GB': 'See More',
-                  'en-US': 'See More',
-                  hi: 'और देखें',
-                },
-              },
-            },
+
             {
               category: 'Contribution',
               title: 'CoWIN',
@@ -424,9 +426,31 @@ export default {
               },
             },
             {
+              category: 'Work',
+              title: 'Atlan',
+              date: 'May 19 - Jan 20',
+              description: {
+                'en-IN':
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                'en-GB':
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                'en-US':
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                hi: 'Atlan के सात एक फ्रंटेंड इंटर्न के रूप में कार्यरत रहा | वहां एक वीडियो लाइब्रेरी और एक क्वेरी इंटरफेस बनाने में मदद की |',
+              },
+              host: {
+                title: 'Atlan',
+                src: 'https://atlan.com',
+                label: 'atlan.com',
+              },
+              logo: {
+                src: 'atlan-blue.svg',
+              },
+            },
+            {
               category: 'Learning',
               title: 'Argonaut',
-              date: 'September 2019',
+              date: 'Sep 2019',
               engagement: {
                 title: 'HackMIT',
               },
@@ -619,14 +643,22 @@ export default {
             hi: 'कथन',
           },
         },
-        footnote: {
+        resume: {
           icon: '📄',
-          link: 'BK.pdf',
+          link: 'Resume.pdf',
           text: {
             'en-IN': 'Resumé ↗',
             'en-GB': 'Resumé ↗',
             'en-US': 'Resumé ↗',
             hi: 'रिज़्यूमे ↗',
+          },
+        },
+        footnote: {
+          text: {
+            'en-IN': 'Contemporary tenant of the litter of ages',
+            'en-GB': 'Contemporary tenant of the litter of ages',
+            'en-US': 'Contemporary tenant of the litter of ages',
+            hi: ' जहां मैं हूँ वहां और भी थे | और भी होंगे ||',
           },
         },
       },

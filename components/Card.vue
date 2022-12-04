@@ -26,7 +26,15 @@
     >
       <div class="flex flex-row">
         <img v-if="obj.logo" :src="obj.logo.src" class="card-logo" />
-        <div class="font-normal ml-2.5 text-black dark:text-white">
+        <div
+          class="
+            font-normal
+            ml-2.5
+            text-black
+            dark:text-white
+            place-self-center
+          "
+        >
           <h3 class="text-md md:text-xl font-semibold sm:leading-7">
             {{ obj.title }}
           </h3>
@@ -78,6 +86,7 @@
         </a>
       </button>
       <button
+        v-if="obj.seeMore"
         type="button"
         class="
           bg-blue-100

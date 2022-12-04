@@ -35,9 +35,9 @@
       "
     >
       <span class="py-1">
-        {{ content.footnote.icon }}
+        {{ content.resume.icon }}
         <a
-          :href="content.footnote.link"
+          :href="content.resume.link"
           class="
             text-md
             md:text-lg
@@ -47,7 +47,7 @@
             text-gray-600
             dark:text-gray-300
           "
-          >{{ content.footnote.text[locale] }}</a
+          >{{ content.resume.text[locale] }}</a
         ></span
       >
     </div>
