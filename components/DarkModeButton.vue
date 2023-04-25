@@ -56,13 +56,11 @@
 export default {
   data() {
     return {
-      isDarkMode: false,
+      isDarkMode: true,
     }
   },
   mounted() {
-    if (document.documentElement.classList.contains('dark')) {
-      this.isDarkMode = true
-    }
+    this.toggleDarkMode()
   },
   methods: {
     toggleDarkMode: () => {
