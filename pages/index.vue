@@ -81,11 +81,11 @@ export default {
             name: 'work',
             text: {
               'en-IN':
-                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, a popular React library, working to democratise access to beautiful, performant software.",
+                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, maintainers of the popular React library <a class='link' href='https://github.com/mui/material-ui' target='_blank' rel='noreferrer'>Material UI</a>, working to democratise access to beautiful, performant software.",
               'en-GB':
-                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, a popular React library, working to democratise access to beautiful, performant software.",
+                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, maintainers of the popular React library <a class='link' href='https://github.com/mui/material-ui' target='_blank' rel='noreferrer'>Material UI</a>, working to democratise access to beautiful, performant software.",
               'en-US':
-                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, a popular React library, working to democratise access to beautiful, performant software.",
+                "Hi! I'm a software engineer at <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a>, maintainers of the popular React library <a class='link' href='https://github.com/mui/material-ui' target='_blank' rel='noreferrer'>Material UI</a>, working to democratise access to beautiful, performant software.",
               hi: "नमस्ते! मैं एक सॉफ्टवेयर इंजीनियर हूँ और <a class='link' href='https://mui.com' target='_blank' rel='noreferrer'> MUI</a> – जो की एक प्रचलित सॉफ्टवेयर निर्माता है – में कार्यरत हूँ | वहां मेरा उद्देश्य है सब लोगों के लिए सॉफ्टवेयर निर्माण आसान बनाना",
             },
           },
@@ -128,11 +128,11 @@ export default {
               },
               description: {
                 'en-IN':
-                  "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
+                  "I work with MUI (maintainers of Material-UI, one of the world's most popular open-source libraries), to help make it easier and faster for developers to build modern, performant, and accessible websites.",
                 'en-GB':
-                  "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
+                  "I work with MUI (maintainers of Material-UI, one of the world's most popular open-source libraries), to help make it easier and faster for developers to build modern, performant, and accessible websites.",
                 'en-US':
-                  "I work with MUI (formerly Material-UI), one of the world's most popular open-source libraries, to help make it easier and faster for developers to build modern, performant, and accessible websites.",
+                  "I work with MUI (maintainers of Material-UI, one of the world's most popular open-source libraries), to help make it easier and faster for developers to build modern, performant, and accessible websites.",
                 hi: 'मैं MUI (पहले Material-UI) के साथ कार्यरत हूँ, जो की विश्व की सबसे विख्यात सॉफ्टवेयर निर्माताओं में से एक है, और मेरा उद्देश्य है लोगों के लिए सॉफ्टवेयर बनाने की प्रक्रिया को तेज़ और आसान बनाना',
               },
               repository: {
@@ -431,11 +431,11 @@ export default {
               date: 'May 19 - Jan 20',
               description: {
                 'en-IN':
-                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and a graphical query interface using Vue.js',
                 'en-GB':
-                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and a graphical query interface using Vue.js',
                 'en-US':
-                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and an graphical query interface using Vue.js',
+                  'Worked as a frontend engineering intern for Atlan – a modern data workspace – and helped build a media library and a graphical query interface using Vue.js',
                 hi: 'Atlan के सात एक फ्रंटेंड इंटर्न के रूप में कार्यरत रहा | वहां एक वीडियो लाइब्रेरी और एक क्वेरी इंटरफेस बनाने में मदद की |',
               },
               host: {
