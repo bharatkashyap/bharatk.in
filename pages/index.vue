@@ -61,13 +61,6 @@ export default {
               id: 'linkedin',
             },
           },
-          {
-            src: 'https://bharatkashyap.wordpress.com',
-            icon: {
-              solid: false,
-              id: 'wordpress',
-            },
-          },
         ],
         title: {
           'en-IN': "I'm Bharat, from 🇮🇳",
@@ -113,6 +106,19 @@ export default {
               'en-US':
                 "I'm a hobbyist <a class='link' href='https://auraq.in' rel='noreferrer' target='_blank'>curator</a> of trivia about architecture, history, urbanism, and, more-or-less, everything else.",
               hi: "मुझे इतिहास, वास्तुकला, शहरीकरण (वैसे, इनके अलावा भी सब कुछ) के बारे में जानना और <a class='link' href='https://auraq.in' rel='noreferrer' target='_blank'>लिखना</a> पसंद है ",
+            },
+          },
+          {
+            icon: '📝',
+            name: 'thought',
+            text: {
+              'en-IN':
+                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+              'en-GB':
+                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+              'en-US':
+                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+              hi: 'मैंने 15 वर्ष की आयु में एक ब्लॉग शुरू किया था जिसपर मैं आज भी कभी-कभी लिखता हूँ',
             },
           },
         ],

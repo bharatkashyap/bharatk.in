@@ -4,6 +4,7 @@
     class="flex flex-col self-start mx-10 dark:text-white mb-4 md:mb-10"
   >
     <div
+      v-if="content.title"
       class="
         flex flex-col
         opacity-0
@@ -26,6 +27,7 @@
       <!-- eslint-enable -->
     </div>
     <div
+      v-if="content.resume"
       class="
         flex flex-col
         opacity-0
