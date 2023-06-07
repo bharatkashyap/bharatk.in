@@ -40,6 +40,7 @@
         {{ content.resume.icon }}
         <a
           :href="content.resume.link"
+          target="_blank"
           class="
             text-md
             md:text-lg
