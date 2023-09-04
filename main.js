@@ -12,6 +12,25 @@ const registerServiceWorker = async () => {
 
 registerServiceWorker()
 
+const setFetchingAnimation = () => {
+  const blogList = document.getElementById('blog-list')
+
+  for (let i = 0; i < 5; i++) {
+    const skeletonItem = document.createElement('div')
+    skeletonItem.classList.add('skeleton-loading-bar')
+    blogList.appendChild(skeletonItem)
+  }
+}
+
+const cancelFetchingAnimation = () => {
+  const blogList = document.getElementById('blog-list')
+
+  const skeletonItems = blogList.querySelectorAll('.skeleton-loading-bar')
+  skeletonItems.forEach((item) => {
+    blogList.removeChild(item)
+  })
+}
+
 const updateBlogList = (posts) => {
   const blogList = document.getElementById('blog-list')
   posts.forEach((post) => {
@@ -30,6 +49,7 @@ const updateBlogList = (posts) => {
 }
 
 const fetchFeed = () => {
+  setFetchingAnimation()
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready
       .then((registration) => {
@@ -40,7 +60,6 @@ const fetchFeed = () => {
       })
     navigator.serviceWorker.addEventListener('message', (event) => {
       const rssData = event.data
-
       const json = JSON.parse(rssData)
       const items = json.items
       const feed = {
@@ -59,6 +78,7 @@ const fetchFeed = () => {
         }
         feed.items.push(itemObj)
       }
+      cancelFetchingAnimation()
       updateBlogList(feed.items)
       return feed
     })
