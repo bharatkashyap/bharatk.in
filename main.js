@@ -41,18 +41,21 @@ const fetchFeed = () => {
     navigator.serviceWorker.addEventListener('message', (event) => {
       const rssData = event.data
 
-      const parser = new DOMParser()
-      const xmlDoc = parser.parseFromString(rssData, 'text/xml')
-      const items = xmlDoc.getElementsByTagName('item')
+      const json = JSON.parse(rssData)
+      const items = json.items
       const feed = {
         items: [],
       }
       for (let i = 0; i < 5; i++) {
         const item = items[i]
         const itemObj = {
-          title: item.querySelector('title').textContent,
-          link: item.querySelector('link').textContent,
-          pubDate: item.querySelector('pubDate').textContent,
+          title: item.title,
+          link: item.url,
+          pubDate: new Date(item.date_published).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+          }),
         }
         feed.items.push(itemObj)
       }
