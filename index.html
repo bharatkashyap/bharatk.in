@@ -1,0 +1,974 @@
+<html>
+  <head>
+    <title>Bharat | भरत</title>
+    <link rel="stylesheet preconnect" href="https://latex.now.sh/style.css" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <style>
+      :root {
+        --blue: #2196f3;
+      }
+      time {
+        font-size: 0.9rem;
+      }
+      .position-relative {
+        position: relative;
+      }
+
+      .d-flex {
+        display: flex;
+      }
+
+      .flex-row {
+        flex-direction: row;
+      }
+
+      .space-between {
+        justify-content: space-between;
+      }
+
+      .justify-content-center {
+        justify-content: center;
+      }
+
+      .text-left {
+        text-align: left;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .text-right {
+        text-align: right;
+      }
+
+      .text-justify {
+        text-align: justify;
+      }
+
+      .ml-1 {
+        margin-left: 1rem;
+      }
+
+      .ml-2 {
+        margin-left: 2rem;
+      }
+
+      .mb-1 {
+        margin-bottom: 1rem;
+      }
+
+      .text-large {
+        font-size: 1.2rem;
+      }
+
+      .text-normal {
+        font-size: 0.95rem;
+      }
+
+      .text-small {
+        font-size: 0.85rem;
+      }
+
+      .text-decoration-none {
+        text-decoration: none;
+      }
+
+      .blog-list-item {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+      }
+
+      .blog-link {
+        color: var(--footnotes-border-color) !important;
+      }
+
+      a {
+        color: var(--blue) !important;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .translucent {
+        opacity: 0.35;
+        filter: blur(1px);
+      }
+
+      .overflow-button {
+        width: 25%;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      .switch {
+        position: relative;
+        display: flex;
+        width: 30px;
+        height: 17px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        border-radius: 34px;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: '';
+        height: 13px;
+        width: 13px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        border-radius: 50%;
+      }
+
+      input:checked + .slider {
+        background-color: var(--blue);
+      }
+
+      input:focus + .slider {
+        box-shadow: 0 0 1px var(--blue);
+      }
+
+      input:checked + .slider:before {
+        transform: translateX(13px);
+        -webkit-transform: translateX(13px);
+      }
+
+      @media screen and (max-width: 600px) {
+        .blog-list-item {
+          flex-direction: column;
+        }
+        td a {
+          font-size: small;
+        }
+      }
+    </style>
+    <script>
+      const muiDuration = Date.now() - new Date('2021-11-15')
+      const samagraDuration = new Date('2021-11-01') - new Date('2020-05-15')
+      const atlanDuration = new Date('2019-07-01') - new Date('2019-05-01')
+      const scDuration = new Date('2019-03-01') - new Date('2018-05-01')
+      const ispirtDuration = Date.now() - new Date('2021-09-01')
+      const ctfgDuration = Date.now() - new Date('2022-01-01')
+      const kaDuration = Date.now() - new Date('2023-07-20')
+      const hasuraDuration = new Date('2022-08-01') - new Date('2021-02-20')
+      const auraqDuration = Date.now() - new Date('2019-06-01')
+      const formatDuration = (ms) => {
+        if (ms < 0) ms = -ms
+        const time = {
+          year: Math.floor(ms / 31536000000),
+          month: Math.floor(ms / 2629800000) % 12,
+          //   week: Math.floor(ms / 604800000) % 4,
+          //   day: Math.floor(ms / 86400000),
+          //   hour: Math.floor(ms / 3600000) % 24,
+          //   minute: Math.floor(ms / 60000) % 60,
+          //   second: Math.floor(ms / 1000) % 60,
+          //   millisecond: Math.floor(ms) % 1000,
+        }
+        return Object.entries(time)
+          .filter((val) => val[1] !== 0)
+          .map(([key, val]) => `${val} ${key}${val !== 1 ? 's' : ''}`)
+          .join(', ')
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <section class="d-flex flex-row space-between">
+        <figure>
+          <img
+            src="./static/me.jpeg"
+            loading="lazy"
+            alt="Bharat Kashyap"
+            width="120"
+            height="120"
+            style="border-radius: 50%"
+          />
+        </figure>
+        <label class="switch">
+          <input type="checkbox" id="darkModeToggle" />
+          <span class="slider"></span>
+        </label>
+      </section>
+
+      <h3>Bharat Kashyap</h3>
+      New Delhi, India
+      <br />
+
+      <u> bharatkashyap[at]outlook[dot]com</u>
+      <br />
+      <p class="abstract text-justify text-large">
+        I am a programmer who also enjoys infrastructure (trains in particular)
+        and psychology.
+      </p>
+    </header>
+    <hr />
+    <section>
+      <br />
+      <h3>Blog // <code>journalctl -n 5</code></h3>
+      <br />
+      <ul id="blog-list"></ul>
+    </section>
+    <!-- Blog -->
+    <hr />
+    <!-- Work Experience-->
+    <section id="work" class="position-relative">
+      <br />
+      <h3>Work // कर्मभूमि</h3>
+      <br />
+      <dl>
+        <!-- MUI -->
+        <section>
+          <dt>
+            <strong>1. MUI </strong>
+            <em>
+              <script>
+                document.write(formatDuration(muiDuration))
+              </script></em
+            >
+            <time> November 2021 - present </time>
+            <p class="text-left">
+              A web tools company headquartered in France that builds and
+              maintains open-source projects &mdash; such as
+              &OpenCurlyDoubleQuote;Material-UI&CloseCurlyDoubleQuote; &mdash;
+              that have <strong>4M+</strong> weekly downloads on
+              <code>npm</code>, <strong>87k+</strong> stars on GitHub and
+              <strong>2.7k+</strong> community contributors. <br /><br />I am
+              part of the Toolpad (low-code editor) and docs infrastructure
+              teams.
+            </p>
+            <br />
+            <section class="mb-1 ml-1">
+              <strong>Full Stack Engineer II </strong><br />
+              <time>03/23 - present</time>
+            </section>
+          </dt>
+          <dd class="text-center left-indent ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/mui/mui-toolpad/pull/2266"
+                      target="_blank"
+                      >mui-toolpad#2266</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Significant upgrade to MUI Toolpad's landing page, to better
+                    demonstrate the features of MUI's new low-code editor
+                  </td>
+                  <td>
+                    <a href="https://mui.com/toolpad" target="_blank">Demo</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">2.</td>
+                  <td colspan="4" class="text-justify">
+                    <a
+                      href="https://github.com/mui/mui-toolpad/pull/2246"
+                      target="_blank"
+                      >mui-toolpad#2246</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add a new feature to MUI Toolpad's editor to allow users to
+                    navigate the page hierarchy using a tree view.
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">3.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/mui/mui-toolpad/pull/1700"
+                      target="_blank"
+                      >mui-toolpad#1700</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Create <code>create-toolpad-app</code>, a Command Line
+                    Interface (CLI) for MUI Toolpad to bootstrap new projects
+                    quickly.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br />
+          <dt>
+            <section class="mb-1">
+              <strong class="ml-1">Full Stack Engineer I</strong>
+              <time>11/21 - 03/23</time>
+            </section>
+          </dt>
+
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/mui/mui-toolpad/pull/1313"
+                      target="_blank"
+                      >mui-toolpad#1313</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add a new MySQL datasource to MUI Toolpad, allowing users to
+                    connect to databases and preview SQL query results in the
+                    editor.
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">2.</td>
+                  <td colspan="4" class="text-justify">
+                    <a
+                      href="https://github.com/mui/material-ui/pull/34454"
+                      target="_blank"
+                      >material-ui#34454</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add a new feature to MUI documentation to allow users to
+                    edit code for every snippet throughout the website and see
+                    the changes live.
+                  </td>
+                  <td>
+                    <a
+                      href="https://mui.com/material-ui/react-autocomplete"
+                      target="_blank"
+                      >Demo</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">3.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/mui/mui-toolpad/pull/489"
+                      target="_blank"
+                      >mui-toolpad#489</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add a new feature to MUI Toolpad to allow users to add
+                    server-side transformation code to their queries.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+        </section>
+        <br /><br />
+        <!-- Samagra -->
+        <section>
+          <dt>
+            <section class="translucent">
+              <strong>2. Samagra</strong>
+              <em>
+                <script>
+                  document.write(formatDuration(samagraDuration))
+                </script></em
+              >
+              <time> May 2020 - November 2021 </time>
+              <p class="text-left">
+                A management consulting company company headquartered in India
+                that works with governments of <strong>5+</strong> states on
+                large scale projects funded by large philanthropies.
+                <br /><br />I was part of an in-house technology team working
+                primarily on open-source governance products.
+              </p>
+            </section>
+
+            <section class="mb-1 hidden">
+              <br />
+              <strong class="ml-1">Software Engineer</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2 hidden">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/Samagra-Development/x-admin"
+                      target="_blank"
+                      >x-admin</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Create <code>x-admin</code>, a low-code admin panel
+                    generator built on top of <code>react-admin</code> and
+                    <code>hasura</code>. Launched in a state in India for a
+                    state-wide (<strong>10k+</strong> schools) device donation
+                    drive.
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.tribuneindia.com/news/himachal/smartphones-to-be-given-to-10k-meritorious-students-403372"
+                      target="_blank"
+                      >Press report</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">2.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/Sunbird-coKreat/creation-portal/pulls?q=is%3Apr+is%3Aclosed+author%3Abharatkashyap"
+                      target="_blank"
+                      >Sunbird</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add APIs for question paper PDF generation and question set
+                    creation to
+                    &OpenCurlyDoubleQuote;DIKSHA&CloseCurlyDoubleQuote;, India's
+                    public digital learning infrastructure used by
+                    <strong>20M+</strong> students monthly, powered by
+                    &OpenCurlyDoubleQuote;Sunbird&CloseCurlyDoubleQuote; &ndash;
+                    an open-source learning platform.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br /><br />
+          </dd>
+        </section>
+
+        <!-- Atlan -->
+        <section class="hidden">
+          <dt>
+            <strong>3. Atlan</strong>
+            <em>
+              <script>
+                document.write(formatDuration(atlanDuration))
+              </script></em
+            >
+            <time> May 2019 - July 2019 </time>
+            <p class="text-left">
+              A data collaboration company headquartered in Singapore whose data
+              catalog product is used by multiple Fortune 500 companies.
+              <br /><br />I was part of the initial product team building the
+              query previewing and collaboration workspace.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Software Engineer (Intern)</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4" class="text-justify text-normal">
+                    Add a feature to a <code>Vue.js</code> app to allow users to
+                    create SQL queries visually, save them as a part of a
+                    collection, and preview the results in the app.
+                  </td>
+                  <td>
+                    <a
+                      href="https://demo.atlan.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Demo</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br /><br />
+        </section>
+
+        <!-- SocialCops -->
+        <section class="hidden">
+          <dt>
+            <strong>4. SocialCops</strong>
+            <em>
+              <script>
+                document.write(formatDuration(scDuration))
+              </script></em
+            >
+            <time> May 2018 - March 2019 </time>
+            <p class="text-left">
+              A data intelligence company headquartered in Singapore which
+              worked as a consultant to several large government projects in
+              India.
+
+              <br /><br />I was part of a frontend team tasked with rewriting a
+              large chunk of the user interface.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Software Engineer (Intern)</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4" class="text-justify text-normal">
+                    Rewrite a large part of the user interface of the DISHA
+                    dashboard, including filters, tables, detailed views, admin
+                    panels, and more.
+                  </td>
+                  <td>
+                    <figure>
+                      <img
+                        src="./static/disha.png"
+                        loading="lazy"
+                        alt="DISHA Dashboard"
+                        width="600"
+                        height="400"
+                      />
+                      <figcaption class="text-center">
+                        <a href="https://disha.gov.in/login" target="_blank"
+                          >DISHA</a
+                        >
+                        dashboard, 2023
+                        <em>(Viewing requires access)</em>
+                      </figcaption>
+                    </figure>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br /><br />
+        </section>
+      </dl>
+      <section class="d-flex flex-row justify-content-center">
+        <button class="overflow-button" id="work">More</button>
+      </section>
+    </section>
+    <hr />
+    <!-- Play-->
+    <section id="play" class="position-relative">
+      <br />
+      <h3>Play // रंगभूमि</h3>
+      <br />
+      <dl>
+        <!-- Auraq -->
+        <section>
+          <dt>
+            <strong>1. Auraq </strong>
+            <em>
+              <script>
+                document.write(formatDuration(auraqDuration))
+              </script></em
+            >
+            <time> June 2019 - present </time>
+            <p class="text-left">
+              Auraq is a community-sourced online magazine which publishes
+              articles on life, culture, and cities.
+              <br /><br />
+              I source articles and keep the website running at Auraq. If you
+              have an interesting experience to share, please email me!
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Founder </strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="3" class="text-justify">
+                    <a
+                      href="https://github.com/bharatkashyap/auraq"
+                      target="_blank"
+                      >auraq</a
+                    >
+                  </td>
+                  <td class="text-justify text-small">
+                    Create a website for Auraq, including an image
+                    upload/hosting system, and a self-hosted newsletter
+                    management system using <code>listmonk</code>.
+                  </td>
+
+                  <td>
+                    <a href="https://auraq.in" target="_blank">Visit</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+        </section>
+        <br /><br />
+        <!-- iSPIRT -->
+        <section>
+          <dt class="translucent">
+            <strong>2. iSPIRT </strong>
+            <em>
+              <script>
+                document.write(formatDuration(ispirtDuration))
+              </script></em
+            >
+            <time> September 2021 - present </time>
+            <p class="text-left">
+              iSPIRT is a not-for-profit think tank, staffed mostly by
+              volunteers from the tech world, who dedicate their time, energy
+              and expertise towards India’s hard problems.
+              <br /><br />
+              I am a volunteer (after having graduated from being a "balloon"
+              volunteer) who contributes technical skills in web development and
+              API design.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Volunteer </strong>
+              <time>01/23 - present</time>
+            </section>
+          </dt>
+          <dd class="text-center ml-2 hidden">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4" class="text-justify text-normal">
+                    Lead the development of a new platform for the Indian
+                    Software Products Registry, including technical architecture
+                    and engineering.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br />
+          <dt>
+            <section class="mb-1 hidden">
+              <strong class="ml-1">Balloon Volunteer</strong>
+              <time>09/21 - 01/23</time>
+            </section>
+          </dt>
+          <dd class="text-center ml-2 hidden">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4" class="text-justify">
+                    <a
+                      href="https://github.com/ispirt/depa-world"
+                      target="_blank"
+                      >depa.world</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Create a documentation and marketing website for DEPA, the
+                    "Data Empowerment and Protection Architecture" that is the
+                    centrepiece for India's new data sharing and protection
+                    framework.
+                  </td>
+                  <td>
+                    <a href="https://depa.world" target="_blank">Visit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="text-right">2.</td>
+                  <td colspan="4">
+                    <a href="https://github.com/ispirt/depa" target="_blank"
+                      >DEPA</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Contribute to the creation of a new technical architecture
+                    for DEPA, specifically aimed at allowing its globalisation.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br /><br />
+          </dd>
+        </section>
+        <!-- CTFG -->
+
+        <section class="hidden">
+          <dt>
+            <strong>3. Civic Tech Field Guide</strong>
+            <em>
+              <script>
+                document.write(formatDuration(ctfgDuration))
+              </script></em
+            >
+            <time> January 2022 - present </time>
+            <p class="text-left">
+              The Civic Tech Field Guide is the world’s largest collection of
+              projects using tech for the common good.
+              <br /><br />
+              I am a volunteer who contributes technical skills in scripting to
+              help automate cumbersome manual tasks.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Volunteer</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4">
+                    <a
+                      href="https://github.com/bharatkashyap/ctfg-media-go"
+                      target="_blank"
+                      >ctfg-media-go</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Create <code>GoLang</code> scripts to allow fetching
+                    screenshots of websites submitted to the guide without
+                    images, upload them to AWS S3, and update Airtable records
+                    with the new URLs.
+                  </td>
+                  <td>
+                    <a href="https://civictech.guide/" target="_blank">Visit</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br /><br />
+        </section>
+
+        <!-- Kino Asia -->
+        <section class="hidden">
+          <dt>
+            <strong>4. Kino Asia</strong>
+            <em>
+              <script>
+                document.write(formatDuration(kaDuration))
+              </script></em
+            >
+            <time> July 2023 - present </time>
+            <p class="text-left">
+              A social group in Singapore which connects no-to-low budget
+              filmmakers, to help them to make films and get exposure.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Volunteer</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1.</td>
+                  <td colspan="4" class="text-justify text-normal">
+                    Create, along with other volunteers, the architecture for a
+                    redeveloped platform for collaboration amongst Kino Asia
+                    members in Singapore
+                  </td>
+                  <td>
+                    <a
+                      href="https://kino.asia"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Visit</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br /><br />
+        </section>
+
+        <!-- Hasura -->
+        <section class="hidden">
+          <dt>
+            <strong>5. Hasura</strong>
+            <em>
+              <script>
+                document.write(formatDuration(hasuraDuration))
+              </script></em
+            >
+            <time> Feb 2021 - August 2022 </time>
+
+            <p class="text-left">
+              Hasura is a Data API Platform headquartered in India for
+              automating 80% of the tediousness of building, securing,
+              optimizing, and deploying GraphQL and REST APIs
+
+              <br /><br />I contribute to their open-source projects and speak
+              at events organised by them. They recognised me as a "Community
+              Champion" in August 2022.
+            </p>
+            <br />
+            <section class="mb-1">
+              <strong class="ml-1">Open-source contributor</strong>
+            </section>
+          </dt>
+          <dd class="text-center ml-2">
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="2" class="text-right">#</th>
+                  <th colspan="3" class="text-center">Code</th>
+                  <th colspan="4" class="text-center">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="text-right">1</td>
+                  <td colspan="3" class="text-justify">
+                    <a
+                      href="https://github.com/hasura/ra-data-hasura/releases/tag/v0.5.3"
+                      target="_blank"
+                      >ra-data-hasura</a
+                    >
+                  </td>
+                  <td colspan="4" class="text-justify text-small">
+                    Add a new feature to Hasura's
+                    <code>react-admin</code> connector allowing users to make
+                    use of the <code>PostgreSQL</code>
+                    <code>distinct_on</code> feature inside
+                    <code>GraphQL</code>queries
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </dd>
+          <br /><br />
+        </section>
+      </dl>
+
+      <section class="d-flex flex-row justify-content-center">
+        <button class="overflow-button" id="play">More</button>
+      </section>
+    </section>
+    <hr />
+    <!-- About-->
+    <section id="about">
+      <br />
+      <h3>About / परिचय</h3>
+      <br />
+
+      In exchange for scrolling all the way down here, here is a little bit
+      about me: I was born and went to school in Delhi. I was bright
+      academically for most of school but had few friends - the computer was a
+      big part of my life all through childhood and teenage. Technology was my
+      biggest interest all through school, culminating with being president of
+      the high school computer club on graduating school in 2015. <br />
+      <br />I went to college in Patiala to study computer engineering in 2016,
+      after attempting to make it to the IITs for one extra attempt. I did not,
+      and that remains an early, spectacular failure for which I am very
+      grateful. <br /><br />I was greatly interested in societal improvement all
+      through college years and got multiple internships in the area. I
+      graduated in 2020 and found a job to pursue the same interest: to apply
+      open-source technology for governments. <br /><br />
+      I remain extremely grateful for the year and a half I spent at this job,
+      since it provided opportunity to understand many facts of the world I was
+      attempting to impact. <br /><br />My work with open-source coupled with a
+      desire to separate work and play got me an offer to work full-time for an
+      open-source company whose projects I had been using for many years.
+      <br /><br />As of writing, I still work there, get to travel a fair bit
+      because of the remote nature of the job and spend the rest of my time
+      being guided by curiosity.
+      <br />
+      <br />
+      I was, and remain, a contemporary tenant of the litter of ages.
+      <br />
+      <br />
+    </section>
+    <hr />
+    <script src="main.js"></script>
+  </body>
+</html>
