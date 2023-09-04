@@ -2,7 +2,7 @@ const cacheName = 'bharatk.in/v1'
 
 self.addEventListener('message', async (event) => {
   if (event.data === 'getFeed') {
-    if (event.origin !== 'http://127.0.0.1:5500') {
+    if (event.origin === 'http://127.0.0.1:5500') {
       const url = './static/rss.json'
       fetch(url)
         .then((response) => response.text())
