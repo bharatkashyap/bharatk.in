@@ -113,11 +113,11 @@ export default {
             name: 'thought',
             text: {
               'en-IN':
-                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+                "I started a blog called <a class='link' href='https://bharatkashyap.wordpress.com' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
               'en-GB':
-                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+                "I started a blog called <a class='link' href='https://bharatkashyap.wordpress.com' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
               'en-US':
-                "I started a blog called <a class='link' href='https://blog.bharatk.in' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+                "I started a blog called <a class='link' href='https://bharatkashyap.wordpress.com' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
               hi: 'मैंने 15 वर्ष की आयु में एक ब्लॉग शुरू किया था जिसपर मैं आज भी कभी-कभी लिखता हूँ',
             },
           },
