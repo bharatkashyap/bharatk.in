@@ -86,7 +86,7 @@ const content = {
       name: 'thought',
       text: {
         en: "Subscribe to my newsletter <a class='link' href='https://newsletter.bharatk.in/subscription/form' target='_blank'>here</a> to get a monthly digest of: the best quiz questions I made, thoughts on cities and culture from travelling, and other ramblings.",
-        hi: 'मैंने 15 वर्ष की आयु में एक ब्लॉग शुरू किया था जिसपर मैं आज भी कभी-कभी लिखता हूँ',
+        hi: "मेरी वार्षिक पत्रिका से जुड़ने के लिए यहां <a class='link' href='https://newsletter.bharatk.in/subscription/form' target='_blank'>जाएं</a>",
       },
     },
   ],
