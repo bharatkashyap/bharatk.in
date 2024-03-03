@@ -46,6 +46,13 @@ const content = {
       },
     },
     {
+      src: 'https://bharatkashyap.wordpress.com',
+      icon: {
+        solid: false,
+        id: 'wordpress',
+      },
+    },
+    {
       src: 'https://www.linkedin.com/in/bharat-kashyap-india',
       icon: {
         solid: false,
@@ -75,18 +82,10 @@ const content = {
       },
     },
     {
-      icon: '📖',
-      name: 'learning',
-      text: {
-        en: "I'm a hobbyist <a class='link' href='https://auraq.in' rel='noreferrer' target='_blank'>curator</a> of trivia about architecture, history, urbanism, and, more-or-less, everything else.",
-        hi: "मुझे इतिहास, वास्तुकला, शहरीकरण (वैसे, इनके अलावा भी सब कुछ) के बारे में जानना और <a class='link' href='https://auraq.in' rel='noreferrer' target='_blank'>लिखना</a> पसंद है ",
-      },
-    },
-    {
       icon: '📝',
       name: 'thought',
       text: {
-        en: "I started a blog called <a class='link' href='https://bharatkashyap.wordpress.com' target='_blank'>Surviving Everyday Life</a> when I was 15 and keep posting occasionally ever since.",
+        en: "Subscribe to my newsletter <a class='link' href='https://newsletter.bharatk.in/subscription/form' target='_blank'>here</a> to get a monthly digest of: the best quiz questions I made, thoughts on cities and culture from travelling, and other ramblings.",
         hi: 'मैंने 15 वर्ष की आयु में एक ब्लॉग शुरू किया था जिसपर मैं आज भी कभी-कभी लिखता हूँ',
       },
     },
